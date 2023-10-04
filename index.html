@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack Vite</title>
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <div class="options">
+          <button id="btnNewGame" class="btn-primary">
+            Nuevo Juego
+          </button>
+          <button id="btnConfPlayers" class="btn-secondary">
+            Conf. Jugadores
+          </button>
+        </div>
+        <div id="deck" class="deck">
+          <!-- <img class="card" src="./public/assets/cards/red_back.png" alt="card">
+          <img class="card" src="./public/assets/cards/red_back.png" alt="card">
+          <img class="card" src="./public/assets/cards/red_back.png" alt="card"> -->
+        </div>
+      </section>
+      <section>
+        <div class="logo mb-1">
+          <img src="./assets/images/blackjack-logo.png" alt="blackjack-logo">
+        </div>
+        <div id="dealerSpace" class="box">
+          <!-- <h4 class="head">Dealer</h4>
+          <div id="dealer-cards" class="body">
+            <img class="card" src="./public/assets/cards/red_back.png" alt="card">
+            <img class="card" src="./public/assets/cards/10C.png" alt="card">
+          </div> -->
+        </div>
+      </section>
+      <section>
+        <div class="score">
+          Score
+        </div>
+      </section>
+      <section id="players" class="players">
+        <!-- <div class="player box current">
+          <h4 class="head mb-1">Player Name 1</h4>
+          <div class="actions mb-2">
+            <button id="btnGetCard" class="btn-secondary">
+              Pedir carta
+            </button>
+            <button id="btnStopCard" class="btn-info">
+              Detenerme
+            </button>
+          </div>
+          <div id="player-cards" class="body">
+            <img class="card" src="./public/assets/cards/10C.png" alt="card">
+            <img class="card" src="./public/assets/cards/4C.png" alt="card">
+          </div>
+        </div> -->
+      </section>
+    </main>
+
+    <div class="modal" id="players-modal">
+      <div class="modal-content">
+        <div class="header">
+          <h4>Jugadores</h4>
+        </div>
+        <div class="body">
+          <div id="players-inputs">
+            <!-- <div class="player-input mb-1">
+              <input type="text" placeholder="Nombre del jugador - 1">
+              <button class="btn-danger">-</button>
+            </div> -->
+          </div>
+          <button id="btnAddPlayer" class="btn-secondary mx-auto">Agregar jugador</button>
+        </div>
+        <div class="footer">
+          <button id="btnCloseModal" class="btn-primary mx-auto">Cerrar</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
