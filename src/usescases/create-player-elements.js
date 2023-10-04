@@ -54,8 +54,8 @@ export const createPlayerSpace = (idPlayer, clickListener1, clickListener2) => {
     //         </button>
     //     </div>
     //     <div id="player-cards" class="body">
-    //         <img class="card" src="./public/assets/cards/10C.png" alt="card">
-    //         <img class="card" src="./public/assets/cards/4C.png" alt="card">
+    //         <img class="card" src="./assets/cards/10C.png" alt="card">
+    //         <img class="card" src="./assets/cards/4C.png" alt="card">
     //     </div>
     // </div>
 

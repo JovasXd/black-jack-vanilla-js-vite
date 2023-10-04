@@ -130,7 +130,7 @@ const startDistribution = async () => {
 
 const showDealerCard = (dealer) => {
     const img = dealer.divCardsRef.querySelector('img');
-    img.src = `./public/assets/cards/${ dealer.cards[0] }.png`;
+    img.src = `./assets/cards/${ dealer.cards[0] }.png`;
 }
 
 const isDealerTurn = () => {

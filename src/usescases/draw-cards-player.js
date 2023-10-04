@@ -8,8 +8,8 @@ export const drawCardsPlayer = ( player ) => {
 
         img.classList.add('card');
         img.src = player.isDealer && !index
-            ? './public/assets/cards/red_back.png'
-            : `./public/assets/cards/${ card }.png`;
+            ? './assets/cards/red_back.png'
+            : `./assets/cards/${ card }.png`;
 
         player.divCardsRef.append( img );
     });
